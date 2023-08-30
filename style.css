@@ -34,13 +34,6 @@ p{
 
 }
 
-i{
-    /* background-image: url("bombe.png");
-    background-size: contain; */
-
-}
-
-
 .unclickedCell{
     border: inset lightgray 8px;
 }
@@ -55,4 +48,9 @@ i{
 
 .number3{
     color: red;
+}
+
+.bomb{
+background-image: url("bomb.gif");
+background-size: contain;
 }
