@@ -1,9 +1,27 @@
+html{
+    font-family :Arial, Helvetica, sans-serif;
+}
+
 body {
-    border: inset grey 15px;
     display: flex;
     width: fit-content;
     justify-content: center;
+    border-top: outset 15px lightgray;
+    border-bottom: outset 15px lightgray;
+    border-left: outset 15px lightgray;
+    border-right: outset 15px white;
 }
+
+main{
+    display: flex;
+    justify-content: center;
+    border-top: inset 15px lightgray;
+    border-bottom: inset 15px snow;
+    border-left: inset 15px lightgray;
+    border-right: inset 15px white;
+
+}
+
 
 
 section {
@@ -30,12 +48,16 @@ p{
 
 
 .clickedCell {
-    border: dashed black 2px;
+    border: dashed black 3px;
 
 }
 
 .unclickedCell{
-    border: inset lightgray 8px;
+    border-top: outset white 8px;
+    border-left: outset white 8px;
+ border-bottom: outset black 8px;
+border-right: outset black 8px;
+
 }
 
 .number1{
