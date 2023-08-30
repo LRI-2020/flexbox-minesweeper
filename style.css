@@ -1,36 +1,30 @@
 html{
     font-family :Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
+   
 }
 
 body {
-    display: flex;
-    width: fit-content;
-    justify-content: center;
     border-top: outset 15px lightgray;
     border-bottom: outset 15px lightgray;
     border-left: outset 15px lightgray;
     border-right: outset 15px white;
-    margin-top: 200px;
+    width: fit-content;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
 }
 
 main{
     display: flex;
-    justify-content: center;
     border-top: inset 15px lightgray;
     border-bottom: inset 15px snow;
     border-left: inset 15px lightgray;
     border-right: inset 15px white;
 
-}
-
-
-
-section {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
+    /*! align-content: center; */
+    /*! align-items: center; */
+    /*! align-self: center; */
 }
 
 
