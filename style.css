@@ -1,0 +1,43 @@
+body {
+    border: inset grey 10px;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+}
+
+
+section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+div{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    box-sizing: border-box;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size:50px;
+}
+
+
+.clickedCell {
+    border: dashed black 2px;
+
+}
+
+
+.unclickedCell{
+    border: inset lightgray 8px;
+}
+
+.number1{
+    color: blue;
+}
